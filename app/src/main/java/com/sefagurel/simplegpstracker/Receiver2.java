@@ -19,6 +19,6 @@ public class Receiver2 implements ISimpleGps {
 
 	@Override
 	public void locationChanged(LocationManager locationManager, Location location) {
-		Log.i("Receiver1", location.getLatitude() + "," + location.getLongitude());
+		Log.i("Receiver2", location.getLatitude() + "," + location.getLongitude());
 	}
 }
